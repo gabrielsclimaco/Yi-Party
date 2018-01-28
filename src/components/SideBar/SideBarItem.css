@@ -1,0 +1,10 @@
+.SideBarItem {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0 0 0;
+}
+
+.SideBarItem-label {
+  color: #D5D5D5;
+  padding-top: 5px;
+}

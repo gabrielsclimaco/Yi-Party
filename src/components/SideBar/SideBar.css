@@ -1,0 +1,35 @@
+.SideBar {
+  width: 20vw;
+  height: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.SideBar-profileImage {
+  margin: 15px 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url('../../assets/nyan-cat.jpeg') center / cover;
+}
+
+.SideBar-profileName {
+  color: #FF0073;
+  font-size: 1em;
+}
+
+.SideBar-profileRole {
+  color: #D5D5D5;
+  font-size: 0.9em;
+  padding: 7px 0 0 0;
+}
+
+.SideBar-separator {
+  background: #D5D5D5;
+  height: 2px;
+  width: 90px;
+  margin: 10px 0;
+}

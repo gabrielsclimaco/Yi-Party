@@ -6,7 +6,7 @@ function NavigationBar(props) {
   return (
     <div className="Navigation-bar">
       <span className="Navigation-label"><b>YI</b> Party</span>
-      <FontAwesome className="Navigation-icon" name="bars" size="50px" />
+      <FontAwesome className="Navigation-icon" name="bars" size="2x" />
     </div>
   );
 }
