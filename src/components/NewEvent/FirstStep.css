@@ -1,0 +1,74 @@
+.FirstStep {
+  padding: 15px;
+  display: flex;
+  align-items: baseline;
+  color: #717171;
+}
+
+.FirstStep-number {
+  font-size: 2em;
+  padding-right: 15px;
+  font-weight: 700;
+}
+
+.FirstStep-title {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.FirstStep-form {
+  padding: 20px 0;
+}
+
+.FirstStep-formTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.FirstStep-formTitleInput {
+  color: #717171;
+  outline: none;
+  font-size: 1em;
+  border: 1px solid rgba(213, 213, 213, 1);
+  border-radius: 3px;
+  height: 20px;
+  width: 100%;
+  margin: 10px 0px 0px 0px;
+}
+
+.FirstStep-image {
+  display: flex;
+}
+
+.FirstStep-formImage {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.FirstStep-formImageButton {
+  padding: 10px 0;
+  position: relative;
+}
+
+.FirstStep-formImageLabel {
+  cursor: pointer;
+  background: #FBFBFB;
+  color: #717171;
+  border-radius: 5px;
+  padding: 7px;
+  width: 150px;
+  text-align: center;
+  transition: all .4s;
+  box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.2);
+}
+
+.FirstStep-formImageInput {
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  top: 11px;
+  width: 170px;
+  height: 30px;
+  cursor: pointer;
+}
