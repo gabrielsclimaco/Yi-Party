@@ -1,0 +1,19 @@
+.Navigation-bar {
+  height: 10vh;
+  width: 100vw;
+  background: linear-gradient(90deg, #FF0073, #7300FF);
+  display: flex;
+  align-items: center;
+}
+
+.Navigation-label {
+  padding-left: 40px;
+  color: white;
+  font-size: 2em;
+  font-weight: 100;
+}
+
+.Navigation-icon {
+  color: white;
+  padding-left: 60px;
+}
