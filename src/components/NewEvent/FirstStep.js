@@ -30,6 +30,14 @@ function FirstStep(props) {
                 </div>
               </div>
             </div>
+            <div className="FirsStep-message">
+              <span className='message'>
+                A imagem escolhida deve estar em formato JPG, GIF, ou PNG
+                e ter no máximo 2MB. A dimensão recomendada é de 1200 x 444
+                pixels. Imagens com altura ou largura diferentes destas podem
+                ser redimensionadas.
+              </span>
+            </div>
           </div>
         </div>
       </div>
