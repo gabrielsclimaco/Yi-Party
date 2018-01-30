@@ -1,0 +1,42 @@
+.ThirdStep {
+  padding: 15px;
+  display: flex;
+  align-items: baseline;
+  color: #717171;
+}
+
+.ThirdStep-number {
+  font-size: 2em;
+  padding-right: 15px;
+  font-weight: 700;
+}
+
+.ThirdStep-title {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.ThirdStep-form {
+  padding-top: 20px;
+  max-width: 30vw;
+}
+
+.ThirdStep-formTitleInput {
+  color: #717171;
+  outline: none;
+  font-size: 1em;
+  border: 1.4px solid rgba(213, 213, 213, 1);
+  transition: all .4s;
+  border-radius: 3px;
+  height: 20px;
+  width: 100%;
+  margin: 10px 0px 0px 0px;
+}
+
+.ThirdStep-formTitleInput::placeholder {
+  color: #D5D5D5;
+}
+
+.ThirdStep-formTitleInput:focus {
+  border: 1.4px solid rgba(113, 113, 113, 1);
+}

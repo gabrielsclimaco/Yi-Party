@@ -1,12 +1,18 @@
 import React from 'react';
-import FontAwesome from 'react-fontawesome';
+import MaterialIcon from 'material-icons-react';
 import './NavigationBar.css';
 
 function NavigationBar(props) {
   return (
     <div className="Navigation-bar">
       <span className="Navigation-label"><b>YI</b> Party</span>
-      <FontAwesome className="Navigation-icon" name="bars" size="2x" />
+      <div className="Navigation-icon">
+        <MaterialIcon
+          icon="menu"
+          size={40}
+          color='white'
+        />
+      </div>
     </div>
   );
 }

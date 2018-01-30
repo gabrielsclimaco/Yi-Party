@@ -4,7 +4,7 @@ import './FirstStep.css';
 
 function FirstStep(props) {
   return (
-    <Card>
+    <Card className={props.className}>
       <div className='FirstStep' >
         <span className='FirstStep-number'>1</span>
         <div>

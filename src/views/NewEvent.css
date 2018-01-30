@@ -1,3 +1,7 @@
 .NewEvent {
-  padding: 25px 7px;
+  padding: 20px 0;
+}
+
+.item {
+  margin: 10px;
 }

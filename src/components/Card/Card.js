@@ -3,7 +3,7 @@ import './Card.css';
 
 function Card(props) {
   return (
-    <div className='Card'>
+    <div className={`Card ${props.className}`}>
       { props.children }
     </div>
   );
