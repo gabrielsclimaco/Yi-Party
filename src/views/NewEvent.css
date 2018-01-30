@@ -1,7 +1,12 @@
 .NewEvent {
-  padding: 20px 0;
+  width: 100%;
+  padding: 20px 0 0 0;
 }
 
 .item {
   margin: 10px;
+}
+
+.bottomBar {
+  bottom: 0;
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {
+  BottomBar,
   FirstStep,
   ThirdStep,
 } from '../components/NewEvent'
@@ -38,6 +39,7 @@ class NewEvent extends Component {
           className='item'
           onFieldTyped={field => {this.handlePlaceInput(field)}}
         />
+        <BottomBar className='bottomBar' />
       </div>
     );
   }

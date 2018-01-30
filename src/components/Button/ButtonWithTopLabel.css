@@ -1,0 +1,16 @@
+.ButtonWithTopLabel-button {
+  width: 230px;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.ButtonWithTopLabel-label {
+  color: #717171;
+  font-size: 0.9em;
+}
